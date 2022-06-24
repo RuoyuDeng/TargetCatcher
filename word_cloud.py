@@ -9,7 +9,7 @@ import argparse
 
 from IPython import embed
 
-# set up arguments
+# set up arguments (for the program)
 parser = argparse.ArgumentParser(prog="WordCloud_Generator")
 parser.add_argument("--startover", type=bool, default=False,help="Whether to re-generate all wordcloud pictures from the first file or not")
 parser.add_argument("--data_file",type=str, default='', help="generate a wordcloud for one specific json file under data directory" )
